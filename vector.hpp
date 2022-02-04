@@ -199,7 +199,6 @@ namespace ft
 				_alloc.deallocate(_cont, _capacity);
 			_capacity = new_cap;
 			_cont = newAlloc;
-			test("test1", 403);
 		}
 
 		//Modifiers
